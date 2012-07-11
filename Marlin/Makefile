@@ -66,8 +66,8 @@ endif
 F_CPU = 20000000
 
 UPLOAD_RATE = 115200
-AVRDUDE_PROGRAMMER = arduino
-PORT = /dev/arduino
+AVRDUDE_PROGRAMMER = wiring
+PORT = /dev/ttyUSB0
 
 TARGET = $(notdir $(CURDIR))
 
