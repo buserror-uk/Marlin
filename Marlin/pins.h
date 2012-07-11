@@ -1044,7 +1044,7 @@
 #define KNOWN_BOARD 1
 
 #if !defined(__AVR_ATmega644P__) && !defined(__AVR_ATmega644__)
-#error Oops!  Make sure you have 'Sanguino' selected from the 'Tools -> Boards' menu. (Final OMCA board)
+#error Oops!  Make sure you have 'OMC with Atmega644 at 20Mhz' selected from the 'Tools -> Boards' menu. (Final OMCA board)
 #endif
 
 #define X_STEP_PIN         26
